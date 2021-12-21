@@ -1,0 +1,198 @@
+/* INICIALIZADOR */
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(95, 161, 153, 0.884);
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+header{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/design1.jpg);
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+    padding-top: 10vh;
+    text-shadow: 1px 1px whitesmoke;
+}
+h2{
+    background-color: black;
+    color: white;
+    text-shadow: 1px 1px gray;
+    text-align: center;
+}
+#logo{
+    position: absolute;
+    width: 10%;
+    right: 3vh;
+    top: 3vh;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 4vh;
+    width: 100vw;
+    background-color: royalblue;
+}
+nav a{
+    color: white;
+    text-shadow: 1px 1px gray;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 56vh;
+    flex-wrap: wrap;
+}
+section{
+    text-align: center;
+    width: 50%;
+}
+section:nth-child(3){
+    width: 100%;
+}
+/* RULES */
+span.bold{
+    font-weight: bold;
+}
+.dtSportmanship{
+    margin-top: 20px;
+}
+.listDescriptiva{
+    width: 80vw;
+}
+.indent{
+    text-indent: 30px;
+}
+dt{
+    font-weight: bold;
+    text-align: left;
+}
+dd{
+    text-align: left;
+    padding: 20px 0px;
+}
+ol{
+    list-style-position: inside;
+}
+li{
+    margin-left: 0px;
+}
+.viñetasConPadding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.viñetaLatin{
+    list-style-type: lower-latin;
+}
+.viñetaNone{
+    list-style-type: none;
+    text-indent: 10px;
+}
+.viñetaCircle{
+    list-style-type: circle;
+    list-style-position: inside;
+    padding-left: 20px;
+}
+/* GAME INFO */
+.schedule{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vh;
+}
+.schedule p{
+    text-align: left;
+    margin: 10px 0;
+}
+.fontItalic{
+    font-style: italic;
+    margin: 10px 0;
+}
+table{
+    text-align: left;
+    margin: 20px 0;
+}
+.tdCenter{
+    text-align: center;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+iframe{
+    margin-top: 15px;
+}
+/* FORMULARIO */
+form{
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+fieldset{
+    border:none;
+}
+fieldset.fieldRow{
+    display: flex;
+    justify-content: space-between;
+}
+fieldset.rowPadre{
+    display: flex;
+}
+fieldset.rowHijo{
+    display: flex;
+    width: 50%;
+}
+.firstName{
+    width: 39vw;
+}
+.lastName{
+    width: 44vw;
+}
+.city{
+    width: 45vw;
+}
+.zipCode{
+    width: 44vw;
+}
+.address{
+    width: 90vw;
+}
+.birthDate{
+    width: 20vw;
+}
+h3{
+    margin: 20px 0 10px 0;
+}
+fieldset.columnPadre{
+    display: flex;
+}
+fieldset.columnHijo{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+.parents{
+    width: 20vw;
+}
+input[type=text]{
+    border: none;
+    border-bottom: 2px black solid;
+}
+input[type=submit]{
+    width: 50vw;
+    margin: 3vh 23vw;
+    background-color: crimson;
+    color: white;
+}

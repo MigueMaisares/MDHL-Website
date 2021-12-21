@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site's Mighty Ducks Hockey League Official</title>
+    <link rel="stylesheet" href="./styles/mdhl3.css">
+</head>
+<body>
+    <header>
+        <h1>Mighty Ducks Hockey League</h1>
+        <h2>Registration Form</h2>
+        <img src="./assets/logomdhl.png" alt="logo MDHL" id="logo">
+    </header>
+    <nav>
+        <a href="./index.html">🏠Home</a>
+        <a href="./about.html">🥽About MDHL</a>
+        <a href="./contact.html">📧Contact</a>
+        <a href="./rules.html">📏Rules</a>
+        <a href="./game_info.html">🏒Games</a>
+        <a href="./registration.html">📄Registration</a>
+    </nav>
+    <main>
+        <form action="./show_data.html">
+
+            <fieldset class="rowPadre">
+                <fieldset class="rowHijo">
+                    <label for="firstName" class="labelfName">Player's First Name: </label>
+                    <input type="text" id="firstName" name="firstName" class="firstName">
+                </fieldset>
+
+                <fieldset class="rowHijo">
+                    <label for="lastName" class="labellName">Last Name: </label>
+                    <input type="text" id="lastName" name="lastName" class="lastName">
+                </fieldset>
+            </fieldset>
+            
+            <fieldset class="fieldRow">
+                <label for="address">Street Address: </label>
+                <input type="text" id="address" name="address" class="address">
+            </fieldset>
+            
+            <fieldset class="rowPadre">
+                <fieldset class="rowHijo">
+                    <label for="city">City: </label>
+                    <input type="text" id="city" name="city" class="city">
+                </fieldset>
+
+                <fieldset class="rowHijo">
+                    <label for="zipCode">Zip Code: </label>
+                    <input type="text" id="zipCode" name="zipCode" class="zipCode">
+                </fieldset>
+            </fieldset>
+
+            <fieldset class="rowPadre">
+                <fieldset class="rowHijo">
+                        <label for="birthDate">Birth Date(mm/dd/yyyy): </label>
+                        <input type="date" id="birthDate" name="birthDate" class="birthDate">
+                </fieldset>
+
+                <fieldset class="rowHijo">
+                        <label for="genFemale">Gender: Female </label>
+                        <input type="radio" id="genFemale" name="gender" value="f">
+                        <label for="genMale">Male</label>
+                        <input type="radio" id="genMale" name="gender" value="m">
+                </fieldset>
+            </fieldset>
+            
+            <fieldset>
+                <span>Grade:</span>
+                <input type="radio" id="gradPre" name="grade" value="preSchool">
+                <label for="gradPre">Pre-School </label>
+                <input type="radio" id="grad1" name="grade" value="1st">
+                <label for="grad1">1st </label>
+                <input type="radio" id="grad2" name="grade" value="2nd">
+                <label for="grad2">2nd </label>
+                <input type="radio" id="grad3" name="grade" value="3rd">
+                <label for="grad3">3rd </label>
+                <input type="radio" id="grad4" name="grade" value="4th">
+                <label for="grad4">4th </label>
+                <input type="radio" id="grad5" name="grade" value="5th">
+                <label for="grad5">5th </label>
+            </fieldset>
+            
+    
+            <h3>Which elementary scholl do you live near?</h3>
+            <h3>Closest School:</h3>
+
+            <fieldset class="columnPadre">
+                <fieldset class="columnHijo">
+                    <div>
+                        <input type="radio" id="aJKat" name="closeSchool" value="aJKatzen">
+                        <label for="aJKat">AJ. Katzenmaier</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="greenbay" name="closeSchool" value="greenbay">
+                        <label for="greenbay">Greenbay</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="hAYea" name="closeSchool" value="howAYeager">
+                        <label for="hAYea">Howard A. Yeager</label>
+                    </div>    
+                </fieldset>
+
+                <fieldset class="columnHijo">
+                    <div>
+                        <input type="radio" id="mPHart" name="closeSchool" value="marPHart">
+                        <label for="mPHart">Marjorie P. Hart</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="nElem" name="closeSchool" value="northElem">
+                        <label for="nElem">North Elementary</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="sElem" name="closeSchool" value="southElem">
+                        <label for="sElem">South Elementary</label>
+                    </div>    
+                </fieldset>
+            </fieldset>
+            
+            <h3>What position(s) do yoy normally play? (check all that apply)</h3>
+            
+            <fieldset class="columnPadre">
+                <fieldset class="columnHijo">
+                    <div>
+                        <input type="checkbox" id="forward" name="forward" value="for">
+                        <label for="forward">Forward</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="defense" name="defense" value="def">
+                        <label for="defense">Defense</label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="columnHijo">
+                    <div>
+                        <input type="checkbox" id="midfield" name="midfield" value="mid">
+                        <label for="midfield">Midfield</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="goalkeeper" name="goalkeeper" value="goal">
+                        <label for="goalkeeper">Goalkeeper</label>
+                    </div>    
+                </fieldset>
+            </fieldset>
+            
+            <h3>Uniform Size:</h3>
+            
+            <fieldset class="columnPadre">
+                <fieldset class="columnHijo">
+                    <div>
+                        <input type="radio" id="ySmall" name="uniformSize" value="ySmall">
+                        <label for="ySmall">Youth Small</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="yMedium" name="uniformSize" value="yMedium">
+                        <label for="yMedium">Youth Medium</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="yLarge" name="uniformSize" value="yLarge">
+                        <label for="yLarge">Youth Large</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="small" name="uniformSize" value="small">
+                        <label for="small">Small</label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="columnHijo">
+                    <div>
+                        <input type="radio" id="medium" name="uniformSize" value="medium">
+                        <label for="medium">Medium</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="large" name="uniformSize" value="large">
+                        <label for="large">Large</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="eLarge" name="uniformSize" value="eLarge">
+                        <label for="eLarge">Extra-Large</label>
+                    </div>    
+                </fieldset>
+            </fieldset>
+
+            <h3>Permission to Play</h3>
+            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities. I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation.
+            By signing below, I herebyagree andauthorizethe above. In addition, by signing below, also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+
+            <fieldset>
+                <label for="parents">Parent/Guardian Signature: </label>
+                <input type="text" id="parents" name="parents" class="parents">
+            </fieldset>
+            
+            <fieldset>
+                <label for="date">Date: </label>
+                <input type="date" id="date" name="date">
+            </fieldset>
+
+            <input type="submit" value="Send it :)">
+        </form>
+    </main>
+</body>
+</html>
